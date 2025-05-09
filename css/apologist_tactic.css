@@ -1,0 +1,115 @@
+/* --- apologist_tactics.css --- */
+
+.apologist-tactics-container {
+    padding: calc(var(--spacing-unit) * 2);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Title can share styling with glossary title if desired */
+.apologist-tactics-container h2.page-title {
+    font-family: var(--font-sans-serif);
+    font-size: 2.2rem;
+    color: var(--accent-primary);
+    text-align: center;
+    margin-bottom: calc(var(--spacing-unit) * 3);
+    padding-bottom: var(--spacing-unit);
+    border-bottom: 2px solid var(--accent-primary);
+    text-shadow: 1px 1px 2px var(--shadow-color);
+}
+
+.tactics-introduction {
+    background-color: var(--bg-secondary);
+    padding: calc(var(--spacing-unit) * 2.5);
+    margin-bottom: calc(var(--spacing-unit) * 4);
+    border-left: 5px solid var(--accent-secondary); /* Critical Red for emphasis */
+    border-radius: var(--border-radius-medium);
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.tactics-introduction h3 { /* For sub-heading within intro if any */
+    color: var(--text-primary);
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.tactics-introduction p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-primary); /* Slightly lighter text for intro */
+    margin-bottom: var(--spacing-unit);
+}
+
+.tactics-list {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for now, can be changed */
+    gap: calc(var(--spacing-unit) * 3);
+}
+
+.tactic-card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-medium);
+    padding: calc(var(--spacing-unit) * 2.5);
+    box-shadow: 0 3px 8px var(--shadow-color);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.tactic-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px var(--shadow-color);
+    border-left: 3px solid var(--accent-primary); /* Highlight on hover */
+}
+
+.tactic-card-header {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: var(--spacing-unit);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.tactic-card-header h4 { /* Tactic Name */
+    font-family: var(--font-sans-serif);
+    font-size: 1.6rem;
+    color: var(--accent-primary);
+    margin: 0;
+    font-weight: 700;
+}
+
+.tactic-description,
+.tactic-rebuttal {
+    margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.tactic-description p,
+.tactic-rebuttal p {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-unit);
+}
+
+.tactic-description strong, /* "Description:" label */
+.tactic-rebuttal strong {   /* "Critical Rebuttal:" label */
+    font-family: var(--font-sans-serif);
+    color: var(--text-secondary);
+    font-weight: 700;
+    display: block;
+    margin-bottom: calc(var(--spacing-unit) * 0.5);
+    font-size: 1rem;
+}
+
+.tactic-rebuttal {
+    padding-left: var(--spacing-unit);
+    border-left: 3px solid var(--accent-secondary); /* Critical Red for rebuttal section */
+    background-color: rgba(211, 47, 47, 0.05); /* Very subtle red tint for rebuttal background */
+}
+
+
+@media (min-width: 768px) {
+    /* Example: two columns for wider screens if desired
+    .tactics-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    */
+}

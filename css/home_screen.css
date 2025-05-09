@@ -1,0 +1,204 @@
+/* --- home_screen.css --- */
+
+.home-screen-container {
+    padding: calc(var(--spacing-unit) * 2);
+}
+
+.mission-statement-excerpt {
+    background-color: var(--bg-secondary);
+    padding: calc(var(--spacing-unit) * 3);
+    margin-bottom: calc(var(--spacing-unit) * 4);
+    border-left: 5px solid var(--accent-primary);
+    border-radius: var(--border-radius-medium);
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.mission-statement-excerpt h2 {
+    margin-top: 0;
+    color: var(--accent-primary);
+    font-size: 1.8rem;
+}
+
+.mission-statement-excerpt p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.mission-statement-excerpt .button {
+    margin-top: var(--spacing-unit);
+}
+
+.case-files-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: calc(var(--spacing-unit) * 3);
+    margin-top: calc(var(--spacing-unit) * 2);
+}
+
+@media (max-width: 600px) {
+    .case-files-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-unit);
+    }
+    .case-file-card {
+        padding: var(--spacing-unit);
+        font-size: 1rem;
+    }
+    .mission-statement-excerpt {
+        padding: var(--spacing-unit);
+        font-size: 1rem;
+    }
+}
+
+.case-file-card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-medium);
+    padding: calc(var(--spacing-unit) * 2.5);
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer; /* Indicate interactivity */
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.case-file-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px var(--shadow-color);
+    border-color: var(--accent-primary);
+}
+
+.case-file-card-header {
+    border-bottom: 2px solid var(--accent-primary);
+    padding-bottom: var(--spacing-unit);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.case-file-card-header h3 {
+    font-family: var(--font-sans-serif);
+    font-size: 1.5rem;
+    color: var(--accent-primary);
+    margin: 0;
+    line-height: 1.3;
+}
+
+.case-file-card-header span {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    display: block;
+    margin-top: calc(var(--spacing-unit) * 0.5);
+}
+
+.case-file-card-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+    flex-grow: 1; /* Pushes the footer down */
+}
+
+.case-file-card-footer {
+    margin-top: auto; /* Aligns footer to bottom of card */
+    text-align: right;
+}
+
+.case-file-card-footer .open-case-file-btn {
+    font-family: var(--font-sans-serif);
+    background-color: transparent;
+    color: var(--accent-primary);
+    border: 1px solid var(--accent-primary);
+    padding: var(--spacing-unit) calc(var(--spacing-unit) * 1.5);
+    border-radius: var(--border-radius-small);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.case-file-card:hover .open-case-file-btn {
+    background-color: var(--accent-primary);
+    color: var(--bg-primary);
+}
+
+
+/* For the "Book Outline" screen specifically, if you have similar card-like items. */
+/* If not, this can be removed or adapted. */
+.outline-list-container {
+    background-color: var(--bg-secondary);
+    padding: calc(var(--spacing-unit) * 2);
+    border-radius: var(--border-radius-medium);
+    box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.outline-list-container h2 {
+    margin-top: 0;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: var(--spacing-unit);
+    color: var(--accent-primary);
+}
+
+.outline-part > h3 {
+    font-size: 1.4rem;
+    color: var(--text-primary);
+    margin-top: calc(var(--spacing-unit) * 2.5);
+    margin-bottom: var(--spacing-unit);
+    padding-bottom: var(--spacing-unit);
+    border-bottom: 1px dashed var(--border-color);
+}
+
+.outline-chapter > h4 {
+    font-size: 1.2rem;
+    color: var(--text-primary); /* Slightly less emphasis than part */
+    margin-top: calc(var(--spacing-unit) * 1.5);
+    margin-bottom: calc(var(--spacing-unit) * 0.5);
+    padding-left: calc(var(--spacing-unit) * 1);
+}
+
+.outline-section-list {
+    list-style-type: none;
+    padding-left: calc(var(--spacing-unit) * 3);
+}
+
+.outline-section-list li {
+    margin-bottom: calc(var(--spacing-unit) * 0.75);
+}
+
+.outline-section-list li a {
+    font-family: var(--font-serif);
+    color: var(--link-color);
+    text-decoration: none;
+    padding: calc(var(--spacing-unit) * 0.5) calc(var(--spacing-unit) * 1);
+    border-radius: var(--border-radius-small);
+    display: block;
+    transition: background-color 0.2s, color 0.2s, padding-left 0.2s;
+}
+
+.outline-section-list li a:hover {
+    background-color: var(--bg-tertiary);
+    color: var(--link-hover-color);
+    padding-left: calc(var(--spacing-unit) * 1.5); /* Indent on hover */
+}
+
+.outline-section-list li a::before {
+    content: "➔ "; /* "↳", "➢", "➔" */
+    color: var(--accent-primary);
+    margin-right: var(--spacing-unit);
+    font-size: 0.9em;
+}
+
+/* Investigator's Dashboard Title */
+.dashboard-title {
+    font-family: var(--font-sans-serif);
+    font-size: 2.2rem;
+    color: var(--text-primary);
+    text-align: center;
+    margin-bottom: calc(var(--spacing-unit) * 3);
+    padding-bottom: var(--spacing-unit);
+    border-bottom: 2px solid var(--accent-primary);
+    text-shadow: 1px 1px 2px var(--shadow-color);
+}

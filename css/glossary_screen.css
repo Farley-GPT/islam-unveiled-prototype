@@ -1,0 +1,158 @@
+/* --- glossary_screen.css --- */
+
+.glossary-container {
+    padding: calc(var(--spacing-unit) * 2);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.glossary-container h2.page-title { /* Shared with Apologist Tactics if desired */
+    font-family: var(--font-sans-serif);
+    font-size: 2.2rem;
+    color: var(--accent-primary);
+    text-align: center;
+    margin-bottom: calc(var(--spacing-unit) * 3);
+    padding-bottom: var(--spacing-unit);
+    border-bottom: 2px solid var(--accent-primary);
+    text-shadow: 1px 1px 2px var(--shadow-color);
+}
+
+.glossary-intro p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    text-align: center;
+    margin-bottom: calc(var(--spacing-unit) * 4);
+    font-style: italic;
+}
+
+.glossary-list {
+    list-style: none;
+    padding: 0;
+}
+
+.glossary-item {
+    user-select: none;
+    cursor: pointer;
+    background-color: var(--bg-secondary);
+    margin-bottom: calc(var(--spacing-unit) * 2.5);
+    padding: calc(var(--spacing-unit) * 2.5);
+    border-radius: var(--border-radius-medium);
+    border-left: 5px solid var(--accent-primary);
+    box-shadow: 0 3px 8px var(--shadow-color);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.glossary-item:hover {
+    transform: translateY(-3px) scale(1.01);
+    box-shadow: 0 6px 12px var(--shadow-color);
+}
+
+.glossary-term {
+    font-family: var(--font-sans-serif);
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    font-weight: 700;
+    margin-bottom: var(--spacing-unit);
+}
+
+.glossary-term strong { /* If the term itself has a strong tag */
+    color: var(--accent-primary); /* Override default strong color if needed */
+}
+
+.glossary-definition {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    color: var(--text-primary);
+    line-height: 1.7;
+    padding-left: var(--spacing-unit); /* Slight indent for definition */
+}
+
+.glossary-definition p {
+    margin-bottom: var(--spacing-unit);
+}
+
+.glossary-definition p:last-child {
+    margin-bottom: 0;
+}
+
+/* Optional: Alphabetical sorting/filtering controls (if added later) */
+.glossary-controls {
+    margin-bottom: calc(var(--spacing-unit) * 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-unit);
+}
+
+.glossary-controls input[type="text"] {
+    padding: var(--spacing-unit);
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border-radius: var(--border-radius-small);
+    font-family: var(--font-sans-serif);
+    width: 250px; /* Adjust as needed */
+}
+
+/* Updated Glossary Search styling */
+.glossary-search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.glossary-search-container input {
+    width: 80%;
+    max-width: 500px;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    background-color: #fff;
+}
+.glossary-search-container input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+
+/* Updated Glossary Modal Navigation styling */
+.glossary-modal-nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.glossary-modal-nav button {
+    flex: none;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.glossary-modal-nav button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .glossary-search-container input {
+        width: 90%;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .glossary-modal-nav button {
+        font-size: 12px;
+        padding: 8px;
+        margin: 0 8px;
+    }
+}
+
+/* Ensure overall responsiveness */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

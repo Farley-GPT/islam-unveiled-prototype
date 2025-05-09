@@ -1,0 +1,112 @@
+/* --- interactive_elements.css --- */
+
+/* Styles for general interactive elements that might not fit elsewhere,
+   e.g., evidence locker notifications, tooltips (if added later) */
+
+/* Evidence Locker "Added" Notification (Placeholder - can be enhanced) */
+.evidence-added-notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--accent-primary);
+    color: var(--bg-primary);
+    padding: var(--spacing-unit) calc(var(--spacing-unit) * 2);
+    border-radius: var(--border-radius-small);
+    box-shadow: 0 2px 10px var(--shadow-color);
+    z-index: 2000; /* Above modals if needed, or adjust */
+    font-family: var(--font-sans-serif);
+    font-size: 0.9rem;
+    display: none; /* JS will toggle */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, bottom 0.3s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    .evidence-added-notification {
+        font-size: 1.1rem;
+        left: 5vw;
+        right: 5vw;
+        width: 90vw;
+        max-width: 95vw;
+        padding: var(--spacing-unit);
+    }
+}
+
+.evidence-added-notification.show {
+    display: block;
+    opacity: 1;
+    bottom: 30px; /* Animate in */
+}
+
+
+/* Basic Tooltip Style (if you implement tooltips later) */
+[data-tooltip] {
+    position: relative;
+    cursor: help;
+}
+
+[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%; /* Position above the element */
+    left: 50%;
+    transform: translateX(-50%) translateY(-5px); /* Center and add small gap */
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
+    padding: calc(var(--spacing-unit) * 0.5) var(--spacing-unit);
+    border-radius: var(--border-radius-small);
+    font-size: 0.85rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, visibility 0.2s;
+    z-index: 1500; /* Ensure tooltips are on top */
+    box-shadow: 0 2px 5px var(--shadow-color);
+}
+
+[data-tooltip]:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-8px); /* Slight upward movement on hover */
+}
+
+
+/* Clickable Span/Icon (Example for future use) */
+.clickable-icon,
+.clickable-span {
+    cursor: pointer;
+    color: var(--link-color);
+    transition: color 0.2s;
+}
+
+.clickable-icon:hover,
+.clickable-span:hover {
+    color: var(--link-hover-color);
+}
+
+
+/* Generic Highlight on Hover for interactive text elements not covered by <a> */
+.interactive-text-highlight:hover {
+    background-color: var(--bg-tertiary);
+    border-radius: var(--border-radius-small);
+}
+
+/* For the "Explore Source" button if it needs more specific styling beyond reader.css */
+/* .explore-source-button is already styled in book_reader.css */
+
+/* Styles for Argument Deconstructor elements (if they become more interactive) */
+/* Currently covered by argument_deconstructor.css for basic layout */
+
+/* "Add to Locker" button in the Source Explorer Modal */
+/* #add-to-locker-button is styled as a general .action-button in main_style.css */
+/* If specific styling is needed: */
+/*
+#add-to-locker-button {
+    background-color: var(--accent-primary);
+    color: var(--bg-primary);
+}
+#add-to-locker-button:hover {
+    background-color: #ffc107;
+}
+*/

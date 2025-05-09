@@ -1,0 +1,84 @@
+/* === STYLES FOR Apologist Tactics Screen === */
+
+.tactics-container {
+    padding: var(--spacing-lg) var(--spacing-xl);
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.tactics-container h1 {
+    font-family: var(--font-condensed);
+    font-size: 2.2em;
+    color: var(--accent-color-strong);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 3px solid var(--secondary-accent-color, var(--border-color-strong)); /* Fallback */
+    text-align: left;
+}
+
+.tactics-list {
+    display: grid;
+    gap: var(--spacing-lg);
+    /* Optional: Can use grid columns if needed, default is single column */
+}
+
+.tactic-card {
+    background-color: var(--background-color-card);
+    border: 1px solid var(--border-color-medium);
+    border-left: 6px solid var(--accent-color-critical); /* Red accent for critical analysis of tactics */
+    border-radius: var(--border-radius-medium);
+    padding: var(--spacing-lg);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.tactic-card h3 { /* Tactic Name */
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 1.5em;
+    color: var(--accent-color-critical); /* Red to emphasize the critique */
+    margin-top: 0;
+    margin-bottom: var(--spacing-md);
+}
+
+.tactic-card p {
+    font-size: 0.95em;
+    line-height: 1.7;
+    color: var(--text-color-light);
+    margin-bottom: var(--spacing-sm);
+}
+
+.tactic-card p.tactic-description,
+.tactic-card p.tactic-example {
+    margin-bottom: var(--spacing-md);
+    padding-left: var(--spacing-sm);
+    border-left: 3px solid var(--border-color-light); /* Indent description/example slightly */
+}
+
+.tactic-card p strong { /* Labels like "Description:", "Example:" */
+    font-weight: 700;
+    color: var(--text-color-medium);
+    display: block; /* Make label appear on its own line */
+    margin-bottom: var(--spacing-xs);
+}
+
+.tactic-card .tactic-rebuttal {
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-md);
+    border-top: 1px dashed var(--border-color-light);
+}
+
+.tactic-card .tactic-rebuttal h4 { /* "Ara's Rebuttal:" */
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 1.1em;
+    color: var(--accent-color-strong); /* Use main accent for the counter-argument */
+    margin-bottom: var(--spacing-sm);
+}
+
+.tactic-card .tactic-rebuttal p {
+     color: var(--text-color-light);
+}
+
+

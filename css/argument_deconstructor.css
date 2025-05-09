@@ -1,0 +1,57 @@
+/* --- argument_deconstructor.css --- */
+
+.argument-deconstructor-container {
+    background-color: var(--bg-secondary);
+    padding: calc(var(--spacing-unit) * 3);
+    border-radius: var(--border-radius-medium);
+    box-shadow: 0 4px 12px var(--shadow-color);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.argument-deconstructor-container h2 {
+    font-family: var(--font-sans-serif);
+    color: var(--accent-primary);
+    font-size: 2rem;
+    margin-bottom: var(--spacing-unit) * 2;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: var(--spacing-unit);
+}
+
+.argument-deconstructor-container p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+    text-align: center;
+}
+
+/* Placeholder styles for future elements */
+.argument-input-area,
+.argument-analysis-area {
+    margin-top: calc(var(--spacing-unit) * 3);
+    padding: calc(var(--spacing-unit) * 2);
+    border: 1px dashed var(--border-color);
+    border-radius: var(--border-radius-small);
+}
+
+.argument-input-area label,
+.argument-analysis-area h3 {
+    display: block;
+    font-family: var(--font-sans-serif);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-unit);
+}
+
+.argument-input-area textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: var(--spacing-unit);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-small);
+    font-family: var(--font-serif);
+    font-size: 1rem;
+}

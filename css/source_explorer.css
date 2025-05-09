@@ -1,0 +1,83 @@
+/* --- source_explorer.css --- */
+/* Styles for the Source Explorer Modal content specifically */
+
+.source-explorer-content {
+    padding: var(--spacing-unit);
+}
+
+.source-explorer-content h4 { /* For section titles like "Original Text", "Ara's Analysis" */
+    font-family: var(--font-sans-serif);
+    font-size: 1.3rem;
+    color: var(--accent-primary);
+    margin-top: calc(var(--spacing-unit) * 2);
+    margin-bottom: var(--spacing-unit);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: calc(var(--spacing-unit) * 0.5);
+}
+
+.source-explorer-content h4:first-child {
+    margin-top: 0;
+}
+
+.source-explorer-content .source-text-block {
+    background-color: var(--bg-primary); /* Matches quote blocks in reader */
+    border-left: 3px solid var(--link-color); /* Different accent for source text */
+    padding: calc(var(--spacing-unit) * 1.5);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+    border-radius: var(--border-radius-small);
+    font-style: italic;
+    color: var(--text-secondary);
+    white-space: pre-wrap; /* Preserve formatting of the source text */
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.source-explorer-content .analysis-block,
+.source-explorer-content .apologist-claim-block {
+    background-color: transparent; /* Or a very subtle difference from modal bg */
+    padding: calc(var(--spacing-unit) * 0.5) var(--spacing-unit);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+    border-radius: var(--border-radius-small);
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+}
+
+.source-explorer-content .analysis-block p,
+.source-explorer-content .apologist-claim-block p {
+    margin-bottom: var(--spacing-unit);
+}
+
+.source-explorer-content .reference-id {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    display: block;
+    margin-bottom: var(--spacing-unit);
+    font-family: var(--font-sans-serif);
+}
+
+.source-explorer-content .reference-id strong {
+    color: var(--text-secondary); /* Keep it subtle for the label */
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: calc(var(--spacing-unit) * 2);
+    border-top: 1px solid var(--border-color);
+    margin-top: calc(var(--spacing-unit) * 2);
+}
+
+.modal-actions .action-button {
+    margin-left: var(--spacing-unit);
+}
+
+/* If there's no content for a section (e.g. no apologist claim) */
+.source-explorer-content .no-content-notice {
+    color: var(--text-secondary);
+    font-style: italic;
+    padding: var(--spacing-unit);
+    border: 1px dashed var(--border-color);
+    border-radius: var(--border-radius-small);
+    text-align: center;
+}
