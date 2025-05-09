@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islam Unveiled: Critical Explorer</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="stylesheet" href="css/home_screen.css">
+    <link rel="stylesheet" href="css/book_reader.css">
+    <link rel="stylesheet" href="css/source_explorer.css">
+    <link rel="stylesheet" href="css/argument_deconstructor.css">
+    <link rel="stylesheet" href="css/modals.css">
+    <link rel="stylesheet" href="css/interactive_elements.css">
+    <link rel="stylesheet" href="css/glossary_screen.css">
+    <link rel="stylesheet" href="css/apologist_tactics.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="theme-dark">
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content-area" class="skip-link">Skip to main content</a>
+    <header>
+        <div class="container header-content">
+            <div class="logo-title">
+                 <img src="assets/images/logo_placeholder.png" alt="Investigator Icon (placeholder, hidden)" id="app-logo-placeholder" style="width: 40px; height: 40px; margin-right: 10px; display: none;"> <!-- Hidden for now, can be enabled later -->
+                <h1>Islam Unveiled: Critical Explorer</h1>
+            </div>
+            <nav id="main-nav" role="navigation" aria-label="Main navigation">
+                <a href="#" class="nav-link" data-nav="home">Home</a>
+                <a href="#" class="nav-link" data-nav="outline">Book Outline</a>
+                <a href="#" class="nav-link" data-nav="glossary">Glossary</a>
+                <button id="theme-toggle" class="action-button" aria-label="Toggle light or dark theme" style="margin-left: 10px;">
+                    <span aria-hidden="true" id="theme-toggle-icon">🌙</span>
+                    <span class="visually-hidden">Toggle light or dark theme</span>
+                </button>
+                <!-- <a href="#" class="nav-link" data-nav="deconstructor">Argument Deconstructor</a> -->
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content-area" class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb" id="breadcrumbs"></nav>
+    <!-- Mission Statement Button will be injected here by JS if not present in static HTML -->
+        <!-- Initial content, will be replaced by JS -->
+        <div class="loading-spinner"><span class="visually-hidden">Loading...</span></div>
+        <p style="text-align:center;">Loading application...</p>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p> 2025 Critical Explorer Project. (Ara American) For educational and analytical purposes only.</p>
+            <p><a href="https://cash.app/$araamerican" class="footer-link" target="_blank" rel="noopener">Donate</a></p>
+        </div>
+    </footer>
+
+    <!-- Generic Modal for Disclaimer, etc. -->
+    <div id="generic-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="generic-modal-title" aria-describedby="generic-modal-body">
+        <div class="modal-content">
+            <button class="close-button" data-modal-close="generic-modal" aria-label="Close modal">×</button>
+            <h3 id="generic-modal-title">Modal Title</h3>
+            <div id="generic-modal-body">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Source Explorer Modal -->
+    <div id="source-explorer-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="source-explorer-modal-title" aria-describedby="source-explorer-modal-body">
+        <div class="modal-content large">
+            <button class="close-button" data-modal-close="source-explorer-modal" aria-label="Close modal">×</button>
+            <h3 id="source-explorer-modal-title">Source Details</h3>
+            <div id="source-explorer-modal-body">
+                <!-- Content injected by JS -->
+            </div>
+            <div class="modal-actions">
+                <button id="add-to-locker-button" class="action-button">Add to Evidence Locker</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Go To Top Floater -->
+    <button id="go-to-top" class="go-to-top-floater" title="Go to Top" aria-label="Go to Top">↑</button>
+    <!-- JavaScript Files -->
+    <script defer src="js/app_data_ui.js"></script>
+    <script defer src="js/interactive_features.js"></script>
+    <script defer src="js/app_core.js"></script>
+</body>
+</html>
