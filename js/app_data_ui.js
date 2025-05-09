@@ -99,6 +99,12 @@ const AppDataUI = (() => {
         return `
             <div class="mission-statement-full">
                 <h2>Ara's Mission Statement:</h2>
+            <div class="mission-audio-player" style="margin: 1.5em 0; text-align: center;">
+                <audio controls preload="none" style="width: 100%; max-width: 400px;">
+                    <source src="assets/audio/mission_statement.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
                 <p>They want me dead. Let’s be clear about that from the outset. For speaking the truths you are about to read, for daring to expose the rot at the heart of Islam, for the simple act of holding their "holy" book to the light – and to the flame – there are those who would see me silenced, permanently. This isn't hyperbole; it's the stated penalty for apostates and blasphemers in their own scriptures, a fate meted out by their most fervent followers across the globe, even today. That is the fear they wield. That is the brutality this book confronts.</p>
                 <p>Why, then, invite such danger? Why stand virtually alone, one of the few women on Earth publicly burning Qurans, knowing each act could be my last? Because the alternative – silence in the face of a creeping, ideologically-driven darkness – is a betrayal far greater than any personal risk. Because the truth, however dangerous, must be told. This book is that truth, forged in conviction, indifferent to consequence. It is my fight against an entire religious edifice built on what I will demonstrate are centuries of deception, manipulation, and divinely-sanctioned violence.</p>
                 <p>This is not a polite academic critique. This is a forensic takedown. I will guide you through the labyrinthine passages of the Quran, not as a reverent believer, but as an investigator examining a crime scene. We will scrutinize the life of Muhammad, not as a hallowed prophet, but as a historical figure whose actions, ambitions, and "revelations" laid the groundwork for an empire built on conquest and control. The "Jahiliyyah," the supposed age of ignorance he vanquished? We will see it for the propaganda it is, a convenient myth to elevate a warlord to a messiah.</p>
