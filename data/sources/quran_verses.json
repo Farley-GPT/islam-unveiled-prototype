@@ -1,0 +1,23 @@
+[
+    {
+        "id": "quran_4_82",
+        "reference": "Quran 4:82",
+        "text_sahih_intl": "Then do they not reflect upon the Qur'an? If it had been from [any] other than Allah, they would have found within it much contradiction.",
+        "ara_analysis": "Ara American uses this verse ironically, accepting its challenge to 'ponder' the Quran and arguing that numerous contradictions *are* found, thus challenging its divine origin claim. Examples cited include differing creation accounts and salvation criteria.",
+        "apologetic_claim": "Apologists argue 'discrepancy' (ikhtilaf) here refers to fundamental internal inconsistencies that would make the text incoherent, not minor variations or seeming contradictions resolvable through context, abrogation, or understanding different levels of meaning. They maintain the Quran is perfectly consistent when interpreted correctly."
+    },
+    {
+        "id": "Quran 9:5",
+        "reference": "Quran 9:5 ('Verse of the Sword')",
+        "text_sahih_intl": "And when the sacred months have passed, then kill the polytheists wherever you find them and capture them and besiege them and sit in wait for them at every place of ambush. But if they should repent, establish prayer, and give zakah, let them [go] on their way. Indeed, Allah is Forgiving and Merciful.",
+        "ara_analysis": "Cited as explicit command for offensive warfare against non-Muslims ('polytheists'). Argues that traditional interpretation (like Ibn Kathir's) sees this verse abrogating earlier, more peaceful verses, making it a universal command, not limited to specific historical context.",
+        "apologetic_claim": "Often contextualized as applying only to specific pagan Arab tribes in 7th century Arabia who repeatedly broke treaties and fought against the early Muslims. Argued not to be a general command against all non-Muslims for all time. Emphasis placed on the conditions for letting them go (repentance, prayer, zakah)."
+    },
+    {
+        "id": "Quran 9:29",
+        "reference": "Quran 9:29 ('Jizya Verse')",
+        "text_sahih_intl": "Fight those who do not believe in Allah or in the Last Day and who do not consider unlawful what Allah and His Messenger have made unlawful and who do not adopt the religion of truth from those who were given the Scripture - [fight] until they give the jizyah willingly while they are humbled.",
+        "ara_analysis": "Seen as a direct command to subjugate Jews and Christians ('People of the Scripture') specifically because of their beliefs/practices, forcing them into a state of humiliation ('sāghirūn') symbolized by the Jizya tax. Foundation for the discriminatory Dhimmi system.",
+        "apologetic_claim": "Argued historically as a tax in lieu of military service (from which non-Muslims were exempt) or as standard practice for conquered peoples in that era. The term 'humbled' (sāghirūn) is debated, with some interpreting it merely as 'submission to the law' rather than personal humiliation."
+    }
+]

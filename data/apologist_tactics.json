@@ -1,0 +1,23 @@
+[
+    {
+        "id": "whataboutism",
+        "name": "Whataboutism (Tu Quoque)",
+        "description": "A logical fallacy that attempts to discredit an opponent's position by charging them with hypocrisy or pointing out perceived flaws in another group/ideology, without directly refuting or addressing the initial argument.",
+        "example": "Critic: 'Quran 9:5 commands killing polytheists.' Apologist: 'But what about the violence in the Old Testament or the Crusades?'",
+        "ara_rebuttal": "This tactic is pure deflection. The actions or texts of other groups are entirely irrelevant to whether a specific command or action within Islam is justifiable or problematic. It aims to change the subject and induce guilt rather than address the substance of the critique."
+    },
+    {
+        "id": "context_gambit",
+        "name": "The Context Gambit",
+        "description": "Claiming a problematic text is taken 'out of context,' often without providing a convincing alternative context that fully neutralizes the plain meaning, or ignoring how the text has been historically understood within the tradition.",
+        "example": "Critic: 'Quran 9:29 demands fighting Jews/Christians until they pay Jizya while humbled.' Apologist: 'You have to understand the historical context of 7th-century warfare and treaties!'",
+        "ara_rebuttal": "While context matters, it's often used as a thought-terminating cliché. The apologist must provide a specific context that logically and textually overrides the verse's explicit command and goal (subjugation, payment 'while humbled'). Often ignores classical interpretations (like abrogation) or the verse's long history justifying the Dhimmi system."
+    },
+    {
+        "id": "misinterpretation",
+        "name": "Blaming Misinterpretation / 'Hijacked Religion'",
+        "description": "Asserting that extremists (like ISIS) or oppressive regimes are simply 'misinterpreting' or 'hijacking' the 'true, peaceful' Islam, ignoring the textual basis extremists often accurately cite for their actions.",
+        "example": "Following a terror attack: 'This has nothing to do with Islam. These terrorists have twisted the peaceful message of the Quran.'",
+        "ara_rebuttal": "This denies the agency of extremists who often engage in literalist readings of problematic verses (e.g., Sword Verse, beheading commands, rules on apostasy) found directly in the Quran and Hadith. While they are selective, their interpretations are often rooted in plain readings and traditional understandings, not solely modern 'twisting'."
+    }
+]

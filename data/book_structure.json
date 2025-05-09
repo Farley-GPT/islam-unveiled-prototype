@@ -1,0 +1,218 @@
+{
+    "bookTitle": "This Is Islam: Unveiling the Reality of Muhammad and His Doctrines",
+    "author": "Ara American",
+    "appIntroduction": {
+        "title": "Introduction / The Veil of Silence",
+        "sectionId": "intro_veil_of_silence",
+        "contentFile": "introduction/main_intro.json"
+    },
+    "missionStatement": {
+        "title": "Ara's Mission Statement",
+        "sectionId": "mission_statement_ara",
+        "contentFile": "introduction/mission_statement.json"
+    },
+    "parts": [
+        {
+            "partTitle": "Part I: Introduction and Foundation for Critical Analysis",
+            "partId": "part_I",
+            "chapters": [
+                {
+                    "chapterTitle": "Chapter 1: Truth Has a Price: Why We MUST Question Islam (And Why They Don't Want Us To)",
+                    "chapterId": "ch1",
+                    "sections": [
+                        { "sectionTitle": "Main: Why We MUST Question", "sectionId": "ch1_s0", "contentFile": "part_I_introduction_and_foundation/chapter_1_truth_has_a_price/section_0_main_intro.json" },
+                        { "sectionTitle": "\"Islamophobia\": The Go-To Silencer", "sectionId": "ch1_s1", "contentFile": "part_I_introduction_and_foundation/chapter_1_truth_has_a_price/section_1_islamophobia_silencer.json" },
+                        { "sectionTitle": "The Real Price Tag – From Deplatforming to Death Threats", "sectionId": "ch1_s2", "contentFile": "part_I_introduction_and_foundation/chapter_1_truth_has_a_price/section_2_real_price_tag.json" },
+                        { "sectionTitle": "Why We Can't Afford to Look Away", "sectionId": "ch1_s3", "contentFile": "part_I_introduction_and_foundation/chapter_1_truth_has_a_price/section_3_cant_look_away.json" },
+                        { "sectionTitle": "Taking Up the Quran's Challenge (Ironically)", "sectionId": "ch1_s4", "contentFile": "part_I_introduction_and_foundation/chapter_1_truth_has_a_price/section_4_quran_challenge.json" }
+                    ]
+                },
+                {
+                    "chapterTitle": "Chapter 2: Hijacking History: The Myth of Ignorance and Muhammad's Arabian Power Grab",
+                    "chapterId": "ch2",
+                    "sections": [
+                        { "sectionTitle": "Selling the \"Age of Ignorance\"", "sectionId": "ch2_s1", "contentFile": "part_I_introduction_and_foundation/chapter_2_hijacking_history/section_1_age_of_ignorance.json" },
+                        { "sectionTitle": "Arabia Before the Hijack", "sectionId": "ch2_s2", "contentFile": "part_I_introduction_and_foundation/chapter_2_hijacking_history/section_2_arabia_before.json" },
+                        { "sectionTitle": "If It Ain't Broke, Steal It", "sectionId": "ch2_s3", "contentFile": "part_I_introduction_and_foundation/chapter_2_hijacking_history/section_3_steal_it.json" },
+                        { "sectionTitle": "The Politics of \"Prophecy\"", "sectionId": "ch2_s4", "contentFile": "part_I_introduction_and_foundation/chapter_2_hijacking_history/section_4_politics_prophecy.json" },
+                        { "sectionTitle": "Jahiliyyah Deconstructed: What They Really Mean", "sectionId": "ch2_s5", "contentFile": "part_I_introduction_and_foundation/chapter_2_hijacking_history/section_5_jahiliyyah_deconstructed.json" }
+                    ]
+                },
+                {
+                    "chapterTitle": "Chapter 3: Cracks in the Foundation: Why You Can't Trust the Quran, Hadith, or Sira",
+                    "chapterId": "ch3",
+                    "sections": [
+                        { "sectionTitle": "The Perfect Book? Let's Take a Closer Look (Quran)", "sectionId": "ch3_s1", "contentFile": "part_I_introduction_and_foundation/chapter_3_cracks_in_foundation/section_1_perfect_book_quran.json" },
+                        { "sectionTitle": "Whispers and Fragments: The Real Story of the Quran's Creation", "sectionId": "ch3_s2", "contentFile": "part_I_introduction_and_foundation/chapter_3_cracks_in_foundation/section_2_quran_creation_story.json" },
+                        { "sectionTitle": "Centuries Later: The Telephone Game of Hadith", "sectionId": "ch3_s3", "contentFile": "part_I_introduction_and_foundation/chapter_3_cracks_in_foundation/section_3_hadith_telephone_game.json" },
+                        { "sectionTitle": "The Prophet's Life Story – Or Pious Fairytale? (Sira)", "sectionId": "ch3_s4", "contentFile": "part_I_introduction_and_foundation/chapter_3_cracks_in_foundation/section_4_sira_fairytale.json" },
+                        { "sectionTitle": "Building Faith on Quicksand", "sectionId": "ch3_s5", "contentFile": "part_I_introduction_and_foundation/chapter_3_cracks_in_foundation/section_5_faith_on_quicksand.json" }
+                    ]
+                }
+            ]
+        },
+        {
+            "partTitle": "Part II: Muhammad's Controversial Life",
+            "partId": "part_II",
+            "chapters": [
+                {
+                    "chapterTitle": "Chapter 4: Prophet, Psychopath, or Profiteer? Decoding Muhammad's \"Divine\" Downloads",
+                    "chapterId": "ch4",
+                    "sections": [
+                        { "sectionTitle": "The Divine Download – Or A Brain Misfiring?", "sectionId": "ch4_s1", "contentFile": "part_II_muhammads_controversial_life/chapter_4_prophet_psychopath_profiteer/section_1_divine_download_misfiring.json" },
+                        { "sectionTitle": "Just What the Prophet Ordered: Allah's Convenient Timing", "sectionId": "ch4_s2", "contentFile": "part_II_muhammads_controversial_life/chapter_4_prophet_psychopath_profiteer/section_2_convenient_timing.json" },
+                        { "sectionTitle": "Marrying Up: Khadijah and the Launchpad to Prophecy", "sectionId": "ch4_s3", "contentFile": "part_II_muhammads_controversial_life/chapter_4_prophet_psychopath_profiteer/section_3_khadijah_launchpad.json" },
+                        { "sectionTitle": "Following the Leader: Faith or Fortune?", "sectionId": "ch4_s4", "contentFile": "part_II_muhammads_controversial_life/chapter_4_prophet_psychopath_profiteer/section_4_faith_or_fortune.json" },
+                        { "sectionTitle": "Coincidence or Calculation?", "sectionId": "ch4_s5", "contentFile": "part_II_muhammads_controversial_life/chapter_4_prophet_psychopath_profiteer/section_5_coincidence_or_calculation.json" }
+                    ]
+                },
+                {
+                    "chapterTitle": "Chapter 5: Rejected, Ridiculed, Radicalized: Muhammad's Meccan Meltdown",
+                    "chapterId": "ch5",
+                    "sections": [
+                        { "sectionTitle": "\"Madman, Poet, Liar\": When Mecca Didn't Buy It", "sectionId": "ch5_s1", "contentFile": "part_II_muhammads_controversial_life/chapter_5_rejected_ridiculed_radicalized/section_1_mecca_didnt_buy.json" },
+                        { "sectionTitle": "The Preacher Gets Angry: Warnings Turn to Threats", "sectionId": "ch5_s2", "contentFile": "part_II_muhammads_controversial_life/chapter_5_rejected_ridiculed_radicalized/section_2_preacher_angry.json" },
+                        { "sectionTitle": "My Way or the Highway: Crushing Meccan Traditions", "sectionId": "ch5_s3", "contentFile": "part_II_muhammads_controversial_life/chapter_5_rejected_ridiculed_radicalized/section_3_crushing_traditions.json" },
+                        { "sectionTitle": "Deal with the Devil? The \"Satanic Verses\" Fiasco", "sectionId": "ch5_s4", "contentFile": "part_II_muhammads_controversial_life/chapter_5_rejected_ridiculed_radicalized/section_4_satanic_verses.json" },
+                        { "sectionTitle": "Radical Roots: How Failure Forged the Medinan Warlord", "sectionId": "ch5_s5", "contentFile": "part_II_muhammads_controversial_life/chapter_5_rejected_ridiculed_radicalized/section_5_radical_roots.json" }
+                    ]
+                },
+                {
+                    "chapterTitle": "Chapter 6: From Preacher to Prince: Muhammad's Medina Power Play",
+                    "chapterId": "ch6",
+                    "sections": [
+                        { "sectionTitle": "The Savior Arrives (Or Does He?)", "sectionId": "ch6_s1", "contentFile": "part_II_muhammads_controversial_life/chapter_6_preacher_to_prince/section_1_savior_arrives.json" },
+                        { "sectionTitle": "Ink on Paper: The Constitution Charade", "sectionId": "ch6_s2", "contentFile": "part_II_muhammads_controversial_life/chapter_6_preacher_to_prince/section_2_constitution_charade.json" },
+                        { "sectionTitle": "Divide, Conquer, Consolidate", "sectionId": "ch6_s3", "contentFile": "part_II_muhammads_controversial_life/chapter_6_preacher_to_prince/section_3_divide_conquer.json" },
+                        { "sectionTitle": "The \"Jewish Problem\": A Step-by-Step Elimination", "sectionId": "ch6_s4", "contentFile": "part_II_muhammads_controversial_life/chapter_6_preacher_to_prince/section_4_jewish_problem.json" },
+                        { "sectionTitle": "One Ruler, One Law: The Birth of the Theocracy", "sectionId": "ch6_s5", "contentFile": "part_II_muhammads_controversial_life/chapter_6_preacher_to_prince/section_5_birth_of_theocracy.json" }
+                    ]
+                },
+                {
+                    "chapterTitle": "Chapter 7: By the Sword Thou Shalt Submit: The Bloody Business of Spreading Islam",
+                    "chapterId": "ch7",
+                    "sections": [
+                        { "sectionTitle": "Defense or Dollars? The Early Raids", "sectionId": "ch7_s1", "contentFile": "part_II_muhammads_controversial_life/chapter_7_by_the_sword/section_1_early_raids.json" },
+                        { "sectionTitle": "Silencing the Scribes: Muhammad's Poet Problem", "sectionId": "ch7_s2", "contentFile": "part_II_muhammads_controversial_life/chapter_7_by_the_sword/section_2_poet_problem.json" },
+                        { "sectionTitle": "Mercy for the Vanquished? The Reality of Captivity", "sectionId": "ch7_s3", "contentFile": "part_II_muhammads_controversial_life/chapter_7_by_the_sword/section_3_reality_of_captivity.json" },
+                        { "sectionTitle": "License to Kill: Finding Violence in the \"Holy\" Books", "sectionId": "ch7_s4", "contentFile": "part_II_muhammads_controversial_life/chapter_7_by_the_sword/section_4_license_to_kill.json" },
+                        { "sectionTitle": "The Pattern of Conquest", "sectionId": "ch7_s5", "contentFile": "part_II_muhammads_controversial_life/chapter_7_by_the_sword/section_5_pattern_of_conquest.json" }
+                    ]
+                },
+                {
+                    "chapterTitle": "Chapter 8: Prophet of Desire: Muhammad's Wives, Scandals, and the Chaos He Left Behind",
+                    "chapterId": "ch8",
+                    "sections": [
+                        { "sectionTitle": "Rules for Thee, But Not for Me: The Prophet's Harem", "sectionId": "ch8_s1", "contentFile": "part_II_muhammads_controversial_life/chapter_8_prophet_of_desire/section_1_prophets_harem.json" },
+                        { "sectionTitle": "Answering for Aisha: The Uncomfortable Truth of Child Marriage", "sectionId": "ch8_s2", "contentFile": "part_II_muhammads_controversial_life/chapter_8_prophet_of_desire/section_2_aisha_child_marriage.json" },
+                        { "sectionTitle": "What Allah \"Revealed\": The Zaynab Scandal Unpacked", "sectionId": "ch8_s3", "contentFile": "part_II_muhammads_controversial_life/chapter_8_prophet_of_desire/section_3_zaynab_scandal.json" },
+                        { "sectionTitle": "After the Prophet: Chaos, Conflict, and Schism", "sectionId": "ch8_s4", "contentFile": "part_II_muhammads_controversial_life/chapter_8_prophet_of_desire/section_4_after_prophet_chaos.json" },
+                        { "sectionTitle": "Legacy of One: Personality Cult, Not Perfect Plan", "sectionId": "ch8_s5", "contentFile": "part_II_muhammads_controversial_life/chapter_8_prophet_of_desire/section_5_legacy_personality_cult.json" }
+                    ]
+                }
+            ]
+        },
+        {
+            "partTitle": "Part III: Doctrinal Problems and Contemporary Critique",
+            "partId": "part_III",
+            "chapters": [
+                {
+                    "chapterTitle": "Chapter 9: Sharia Unmasked: Divine Law or Medieval Barbarity?",
+                    "chapterId": "ch9",
+                    "sections": [
+                        { "sectionTitle": "Cutting Hands, Stoning Bodies: The \"Justice\" of Hudud", "sectionId": "ch9_s1", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_9_sharia_unmasked/section_1_hudud_justice.json" },
+                        { "sectionTitle": "Women Under Sharia: Separate and Unequal", "sectionId": "ch9_s2", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_9_sharia_unmasked/section_2_women_under_sharia.json" },
+                        { "sectionTitle": "Living While Infidel: The Myth of Dhimmi Tolerance", "sectionId": "ch9_s3", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_9_sharia_unmasked/section_3_dhimmi_myth.json" },
+                        { "sectionTitle": "No Exit: The Price of Leaving or Questioning Islam", "sectionId": "ch9_s4", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_9_sharia_unmasked/section_4_no_exit_apostasy.json" },
+                        { "sectionTitle": "Incompatible with Rights: Sharia vs. Modernity", "sectionId": "ch9_s5", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_9_sharia_unmasked/section_5_sharia_vs_modernity.json" }
+                    ]
+                },
+                {
+                    "chapterTitle": "Chapter 10: Submit or Suffer: Islam's War on Thought",
+                    "chapterId": "ch10",
+                    "sections": [
+                         { "sectionTitle": "Just Submit: The Meaning of \"Islam\"", "sectionId": "ch10_s1", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_10_submit_or_suffer/section_1_meaning_of_islam.json" },
+                         { "sectionTitle": "Thinking Allowed? Not Really", "sectionId": "ch10_s2", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_10_submit_or_suffer/section_2_thinking_allowed.json" },
+                         { "sectionTitle": "A History of Suppression: Silencing the Scholars", "sectionId": "ch10_s3", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_10_submit_or_suffer/section_3_history_of_suppression.json" },
+                         { "sectionTitle": "It's All Written: The Fatalism of Predestination", "sectionId": "ch10_s4", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_10_submit_or_suffer/section_4_fatalism_predestination.json" },
+                         { "sectionTitle": "The Prison of Dogma", "sectionId": "ch10_s5", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_10_submit_or_suffer/section_5_prison_of_dogma.json" }
+                    ]
+                },
+                {
+                    "chapterTitle": "Chapter 11: Can't Touch This? Smashing the Sacred Cow of Muhammad",
+                    "chapterId": "ch11",
+                    "sections": [
+                        { "sectionTitle": "The Untouchable Prophet: Manufacturing the Muhammad Taboo", "sectionId": "ch11_s1", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_11_cant_touch_this/section_1_muhammad_taboo.json" },
+                        { "sectionTitle": "Speak and Die: The Price of Crossing the Line", "sectionId": "ch11_s2", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_11_cant_touch_this/section_2_speak_and_die.json" },
+                        { "sectionTitle": "The Academy Held Hostage: When \"Sensitivity\" Means Censorship", "sectionId": "ch11_s3", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_11_cant_touch_this/section_3_academy_hostage.json" },
+                        { "sectionTitle": "The Toothless Reformers: Why Moderates Keep Failing", "sectionId": "ch11_s4", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_11_cant_touch_this/section_4_toothless_reformers.json" },
+                        { "sectionTitle": "Breaking the Idol: The Necessity of Criticizing Muhammad", "sectionId": "ch11_s5", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_11_cant_touch_this/section_5_breaking_the_idol.json" }
+                    ]
+                },
+                {
+                    "chapterTitle": "Chapter 12: Smoke and Mirrors: Dismantling the Lies Islamic Apologists Tell",
+                    "chapterId": "ch12",
+                    "sections": [
+                        { "sectionTitle": "The Apologist's Toolkit: Lies, Damn Lies, and Whataboutism", "sectionId": "ch12_s1", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_12_smoke_and_mirrors/section_1_apologists_toolkit.json" },
+                        { "sectionTitle": "Airbrushing the Prophet: How They Hide Muhammad's Dark Side", "sectionId": "ch12_s2", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_12_smoke_and_mirrors/section_2_airbrushing_prophet.json" },
+                        { "sectionTitle": "\"You Need a PhD to Criticize Us\": Gatekeeping and Fake Authority", "sectionId": "ch12_s3", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_12_smoke_and_mirrors/section_3_gatekeeping_authority.json" },
+                        { "sectionTitle": "The Great Academic Double Standard", "sectionId": "ch12_s4", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_12_smoke_and_mirrors/section_4_academic_double_standard.json" },
+                        { "sectionTitle": "Seeing Through the Smoke", "sectionId": "ch12_s5", "contentFile": "part_III_doctrinal_problems_contemporary_critique/chapter_12_smoke_and_mirrors/section_5_seeing_through_smoke.json" }
+                    ]
+                }
+            ]
+        },
+        {
+            "partTitle": "Part IV: Problematic Legacy and Global Impact",
+            "partId": "part_IV",
+            "chapters": [
+                {
+                    "chapterTitle": "Chapter 13: The Golden Age Mirage: How Islamic Dogma Stifled Progress",
+                    "chapterId": "ch13",
+                    "sections": [
+                        { "sectionTitle": "The \"Golden Age\" Story: Fact or Fairytale?", "sectionId": "ch13_s1", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_13_golden_age_mirage/section_1_fact_or_fairytale.json" },
+                        { "sectionTitle": "Lost in Translation? Appropriation, Not Originality", "sectionId": "ch13_s2", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_13_golden_age_mirage/section_2_appropriation_not_originality.json" },
+                        { "sectionTitle": "When Dogma Kills Discovery: Ash'arism, Al-Ghazali, and Averroes", "sectionId": "ch13_s3", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_13_golden_age_mirage/section_3_dogma_kills_discovery.json" },
+                        { "sectionTitle": "The Sunni Revival's Shadow: Tracking the Decline", "sectionId": "ch13_s4", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_13_golden_age_mirage/section_4_sunni_revival_decline.json" },
+                        { "sectionTitle": "Legacy of Stagnation", "sectionId": "ch13_s5", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_13_golden_age_mirage/section_5_legacy_of_stagnation.json" }
+                     ]
+                },
+                {
+                    "chapterTitle": "Chapter 14: The Bitter Harvest: Authoritarianism, Oppression, and Stagnation in the Modern Muslim World",
+                    "chapterId": "ch14",
+                    "sections": [
+                         { "sectionTitle": "The Authoritarian Reflex: Why Democracy Struggles in Muslim Lands", "sectionId": "ch14_s1", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_14_bitter_harvest/section_1_authoritarian_reflex.json" },
+                         { "sectionTitle": "Women Last: Gender Apartheid from Kabul to Tehran", "sectionId": "ch14_s2", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_14_bitter_harvest/section_2_women_last.json" },
+                         { "sectionTitle": "No Place for the \"Other\": The Persecution of Minorities", "sectionId": "ch14_s3", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_14_bitter_harvest/section_3_persecution_minorities.json" },
+                         { "sectionTitle": "Stagnation by Submission? Connecting Doctrine to Development", "sectionId": "ch14_s4", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_14_bitter_harvest/section_4_stagnation_by_submission.json" },
+                         { "sectionTitle": "Facing the Fallout", "sectionId": "ch14_s5", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_14_bitter_harvest/section_5_facing_fallout.json" }
+                    ]
+                },
+                {
+                    "chapterTitle": "Chapter 15: The Long Shadow: Jihad, Extremism, and Islam's Threat to Global Security",
+                    "chapterId": "ch15",
+                    "sections": [
+                        { "sectionTitle": "Reading Their Playbook: The Terrorist's Quran", "sectionId": "ch15_s1", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_15_long_shadow_jihad/section_1_terrorists_quran.json" },
+                        { "sectionTitle": "Following the Footsteps? Muhammad as the Original Jihadist", "sectionId": "ch15_s2", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_15_long_shadow_jihad/section_2_muhammad_original_jihadist.json" },
+                        { "sectionTitle": "When Worlds Collide: Why Integration Falters", "sectionId": "ch15_s3", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_15_long_shadow_jihad/section_3_integration_falters.json" },
+                        { "sectionTitle": "Reforming the Unreformable? The Illusion of Mainstream Change", "sectionId": "ch15_s4", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_15_long_shadow_jihad/section_4_illusion_of_reform.json" },
+                        { "sectionTitle": "The Enduring Threat", "sectionId": "ch15_s5", "contentFile": "part_IV_problematic_legacy_global_impact/chapter_15_long_shadow_jihad/section_5_enduring_threat.json" }
+                    ]
+                }
+            ]
+        },
+        {
+            "partTitle": "Part V: Conclusion",
+            "partId": "part_V",
+            "chapters": [
+                {
+                    "chapterTitle": "Chapter 16: Facing Reality: No More Excuses",
+                    "chapterId": "ch16",
+                    "sections": [
+                        { "sectionTitle": "Recap of the Indictment", "sectionId": "ch16_s1", "contentFile": "part_V_conclusion/chapter_16_facing_reality/section_1_recap_indictment.json" }
+                    ]
+                }
+            ]
+        }
+    ]
+}
